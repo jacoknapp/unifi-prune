@@ -5,7 +5,9 @@ This script works for me continuously, but i'm ultimately not responsible for an
 
 ## How to use
 
-SSH onto your unifi conosle (in the control center, turn on ssh and set a password.)
+SSH onto your unifi conosle (settings -> control plane -> console, turn on ssh and set a password.)
+
+SSH into your console. THe username is root
 
 Run the following commands. 
 
