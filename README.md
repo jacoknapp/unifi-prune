@@ -1,5 +1,5 @@
-# Prune script 
-Prune Script for the unifi database. Stolen off of the old unifi forum. 
+# Unifi Console Prune script 
+Prune Script for the unifi database. Stolen off of the old unifi forum. This will remove all data from before X days, and any devices before X days as configured in the file. It will not remove any device that has custom information saved in its fields (i.e. static ips, notes, or a rename). 
 
 This script works for me continuously, but i'm ultimately not responsible for any damage that this may cause
 
