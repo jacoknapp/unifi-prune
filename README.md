@@ -4,11 +4,13 @@ Prune Script for the unifi database. Stolen off of the old unifi forum.
 This script works for me continuously, but i'm ultimately not responsible for any damage that this may cause
 
 ## How to use
-Download the script to your unifi console client.
 
-Run the following command. 
+SSH onto your unifi conosle (in the control center, turn on ssh and set a password.)
+
+Run the following commands. 
 
 ```
+wget https://raw.githubusercontent.com/jacoknapp/unifi-prune/refs/heads/main/prune.js
 mongo --port=27117 < prune.js
 ```
 
